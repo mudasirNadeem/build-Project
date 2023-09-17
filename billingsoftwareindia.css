@@ -1,0 +1,85 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  padding:  5px 50px;
+  background-color: white;
+}
+.Logo{
+    height: 500px;
+    background-image: url(https://billingsoftwareindia.in/images/header-main.jpg);
+
+}
+ul li , ol li {
+    list-style: none;
+   
+}
+ ol, ul{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    display: inline-block;
+    
+    
+}
+ul  .nav-item,ol .nav-item{
+    border-bottom: solid 1px white ;
+}
+ul  .nav-item:hover,ol .nav-item:hover{
+    border-bottom: solid 1px black ;
+}
+.nav-link{
+padding: 10px  23px  10px 20px ;
+cursor: pointer;
+font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.border-1px{
+    border: solid 1px black;
+}
+.bg-yellow{
+    background-color: #ffd800;
+}
+.w-50{
+    width: 60px !important;
+    margin-bottom: 20px;
+}
+.bg-graylight{
+    background-color: #f5f5f5;
+}
+.bg-light-blue{
+    background-color: #1e4682;
+}
+.btn-outline-link:hover{
+ text-decoration: underline;
+ border-color: green;
+ color: blue;
+}
+.text-green,.border-green{
+    color: green;
+    border-color: green;
+}
+.border-radius-20{
+    border-radius: 20px;
+}
+.bg-image{
+    background-image: url(https://billingsoftwareindia.in/images/contact/download-background.jpg);
+  
+}
+.footer .col-3 a:hover{
+    text-decoration: underline;
+
+}
+li a{
+    font-family: segoe ui,SegoeUI,helvetica neue,Helvetica,Arial,sans-serif;
+
+}
+.custom-box-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.120);
+}
+.hover-underline:hover{
+    text-decoration: underline !important;
+}
