@@ -1,0 +1,18 @@
+table td{
+    font-size: medium;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+    /* Add any other styles you want for even rows */
+  }
+  tr:nth-child(odd) {
+    background-color: #efefef;
+    /* Add any other styles you want for odd-numbered rows */
+}
+.tr-setting{
+    padding-left: 20px;
+    border-top: 4px white solid;
+}
+.font_weight_300{
+    font-weight: 300;
+}
