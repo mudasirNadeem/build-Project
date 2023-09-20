@@ -1,0 +1,21 @@
+body{
+    overflow-x: hidden;
+}
+.image-set-color{
+    background-color: #1a73e8;
+    content: '';
+    position: absolute;
+    height: 50vw;
+    width: 100vw;
+    -webkit-transform: rotateZ(45deg) skewX(-15deg) skewY(-16deg);
+    -ms-transform: rotate(45deg) skewX(-15deg) skewY(-16deg);
+    transform: rotateZ(45deg) skewX(-15deg) skewY(-16deg);
+    left: 97%;
+    top: -22vw;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    border-radius: 1px;
+    box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0;
+    z-index: -1;
+}
