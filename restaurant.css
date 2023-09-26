@@ -19,3 +19,89 @@ body{
     box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0;
     z-index: -1;
 }
+.white-image{
+    background-image: url(https://billingsoftwareindia.in/images/restro/section2-bg.jpg);
+    background-size: cover;
+}
+.fs-13{
+    font-size: 13px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Segoe UI,helvetica neue,Helvetica,Arial,sans-serif;
+}
+h4,h5 {
+    font-size: 14px;
+}
+
+.border-bottom-1{
+    border-bottom: 1px solid #efefef;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.user-select-none{
+    user-select: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the radio buttons */
+.radio-button {
+    display: none;
+}
+
+/* Style the label for the dropdown */
+.dropdown-label,.dropdown-label2 ,.dropdown-label3,.dropdown-label4,.dropdown-label5,.dropdown-label6 {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: #efefef solid 1px;
+}
+
+/* Style the options container */
+.dropdown-options,
+.dropdown-options2,
+.dropdown-options3,
+.dropdown-options4,
+.dropdown-options5,
+.dropdown-options6 {
+    display: none;
+    z-index: 1;
+}
+.radio-button:checked ~  .dropdown-label + .dropdown-options {
+    display: block;
+}
+#option2:checked ~  .dropdown-label2 + .dropdown-options2 {
+    display: block;
+}
+#option3:checked ~  .dropdown-label3 + .dropdown-options3 {
+    display: block;
+}
+#option4:checked ~  .dropdown-label4 + .dropdown-options4 {
+    display: block;
+}
+#option5:checked ~  .dropdown-label5 + .dropdown-options5 {
+    display: block;
+}
+#option6:checked ~  .dropdown-label6 + .dropdown-options6 {
+    display: block;
+}
+.bg-gray{
+    background-color: #f8f9fa;
+}
+.drop .card{
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+    
+}
+.client-list ul li{
+    list-style: square !important;
+}
+.border-radius-0{
+    border-radius: 0;
+}
+.h-400{
+    height: 400px;
+}

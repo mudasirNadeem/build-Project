@@ -1,5 +1,6 @@
 body{
 font-family: 'Roboto', sans-serif;
+overflow-x: hidden;
 }
 .navbar{
   padding:  5px 50px;
@@ -25,6 +26,8 @@ ul li a{
 }
 ul  .nav-item,ol .nav-item{
     border-bottom: solid 1px white ;
+    padding-left: 15px;
+    margin-left: 15px;
 }
 ul  .nav-item:hover,ol .nav-item:hover{
     border-bottom: solid 1px black ;
@@ -82,4 +85,56 @@ li a{
 }
 .hover-underline:hover{
     text-decoration: underline !important;
+    
+}
+ol{
+    margin-right: 30px;
+}
+@media (max-width: 1200px) {
+    .sm-ps-3{
+        padding-left: 2rem;
+       }
+       .md-mb-3{
+        margin-bottom: 2rem;
+    
+     }
+     .md-ps-0{
+        padding-left: 0 !important;
+     }
+     .md-h-100{
+        height: 100%;
+     }
+     .md-hidden{
+        display: none;
+     }
+     .md-flex-column{
+        flex-direction: column;
+     }
+}
+@media (max-width: 767px) {
+   ol{
+        flex-direction: column;
+    }
+  
+    .footer{
+        padding-left: 50px;
+    }
+  
+    .sm-flex-column{
+        flex-direction: column;
+    }
+    .sm-pb-2{
+        padding-bottom: 1.5rem;
+    }
+ .sm-ps-3{
+    padding-left: 2rem;
+ }
+ .sm-pb-3{
+    padding-bottom: 2rem;
+
+ }
+ .sm-ps-0{
+    padding-left: 0 ;
+ }
+
 }
