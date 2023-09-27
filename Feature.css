@@ -89,6 +89,7 @@ body{
     h1, h2, h3, h4, h5, h6 {
         font-family: Segoe UI,helvetica neue,Helvetica,Arial,sans-serif;
     }
+    
     .hover-underline:hover{
         text-decoration: underline !important;
     }
@@ -113,7 +114,7 @@ body{
             flex-direction: column;
         }
         .md-ps-0{
-            padding-left: 0;
+            padding-left: 0 !important;
         }
         .md-d-none{
             display: none;
@@ -125,12 +126,28 @@ body{
             padding-top: 2rem;
         }
         .md-ps-3{
-            padding-left: 2rem;
+            padding-left: 2rem !important; 
+        }
+        .md-ps-2{
+            padding-left: 1rem !important; 
         }
         .md-ps-5{
             padding-left: 3rem;
         }
+        .md-pe-3{
+            padding-right: 2rem;
         }
+        .md-align-items-start{
+            align-items: start;
+        }
+        .md-justify-content-start{
+            justify-content: start;
+        }
+        .md-ps-40{
+            padding-left: 40px !important;
+        }
+        }
+
     @media (max-width: 767px) {
         .custom-flex-column-reverse {
             flex-direction: column-reverse !important;
@@ -147,6 +164,9 @@ body{
         }
         .ps-sm-3{
             padding-left: 2rem;
+        }
+        .ps-sm-2{
+            padding-left: 1.5rem !important;
         }
         .sm-flex-column{
             flex-direction: column;

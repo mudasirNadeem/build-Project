@@ -17,3 +17,6 @@ tr:nth-child(even) {
 .font_weight_300{
     font-weight: 300;
 }
+.hover-underline:hover{
+    text-decoration: underline !important;
+}

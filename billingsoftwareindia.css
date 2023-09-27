@@ -90,6 +90,16 @@ li a{
 ol{
     margin-right: 30px;
 }
+.border-radius-0{
+    border-radius: 0;
+}
+
+.mt-8{
+margin-top: 10rem;
+}
+.ms-8{
+    margin-left: 10rem;
+}
 @media (max-width: 1200px) {
     .sm-ps-3{
         padding-left: 2rem;
@@ -109,6 +119,9 @@ ol{
      }
      .md-flex-column{
         flex-direction: column;
+     }
+     .md-ps-15{
+        padding-left: 15px !important;
      }
 }
 @media (max-width: 767px) {
@@ -135,6 +148,21 @@ ol{
  }
  .sm-ps-0{
     padding-left: 0 ;
+ }
+ .sm-12{
+    width: 100%;
+ }
+ .sm-ps-3{
+    padding-left: 2rem;
+ }
+ .sm-pt-3{
+    padding-top: 2rem;
+ }
+ .sm-pb-3{
+    padding-bottom: 2rem;
+ }
+ .sm-m-0{
+    margin: 0 !important;
  }
 
 }
